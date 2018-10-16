@@ -1,12 +1,14 @@
 # BurgerMenu
 This is SPFX burger menu navigation control, which extract navigation links from site collection term store.
-Prerequiste
+# Prerequiste
   1. install typings for sharepoints
+  npm install  @types/microsoft-ajax @types/sharepoint --save
   2. install react-render-html module
+  npm i react-render-html
   3. Sharepoint site collection with publishing feature activated
       Term stores created for navigation
       3 level of heirarchy for navigation is supported.
- #Initial File changes
+# Initial File changes
  1. tsConfig.json - replace with following values
   "types": [
       "es6-promise",
